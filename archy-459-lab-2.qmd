@@ -1,6 +1,6 @@
 ---
 title: "lab 2"
-format: html
+format: docx
 ---
 
 ```{r}
