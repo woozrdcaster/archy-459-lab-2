@@ -1,0 +1,18 @@
+---
+title: "lab 2"
+format: html
+---
+
+```{r}
+library(tidyverse)
+
+lithic_data <- read_csv("lithics_raw.csv")
+
+lithics_clean <-
+  lithic_data |> 
+  mutate(length_mm = parse_number(length_mm)) |> 
+  mutate(weight_g = parse_number(weight_g)) |> 
+  mutate(platform_mm = parse_number(platform_mm)) |> 
+  filter(weight_g < 500)
+```
+
