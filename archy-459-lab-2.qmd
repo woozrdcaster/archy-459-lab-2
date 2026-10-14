@@ -1,5 +1,5 @@
 ---
-title: "lab 2"
+title: "ARCHY 459 Lab 2: Cleaning Lithic Artefact Data"
 format: docx
 ---
 
@@ -17,3 +17,8 @@ lithics_clean <-
 ```
 
 I have now cleaned the data
+Good models 10/14
+Muse Spark1.3 Free
+MiMi-V2.6
+Space Bunny
+Nemotron Ultra Free
