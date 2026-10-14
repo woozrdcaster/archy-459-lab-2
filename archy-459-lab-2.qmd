@@ -16,3 +16,4 @@ lithics_clean <-
   filter(weight_g < 500)
 ```
 
+I have now cleaned the data
